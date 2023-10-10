@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '94766943622';
+global.owner = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : '917047294917';
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://vajira:vajira@cluster0.hzwqrqq.mongodb.net/?retryWrites=true&w=majority" ;
 global.port= false // Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000  ; 
 global.audio = '' ; 
@@ -12,23 +12,23 @@ global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363022922797633@g.us' ;
 global.email = 'botwhatsapp204@gmail.com' ;
 global.location = 'Rathnapura SriLanka' ;
-global.timezone  = process.env.TIME_ZONE || 'Asia/Colombo'
+global.timezone  = process.env.TIME_ZONE || 'Asia/Kolkata'
 global.gurl = 'https://youtube.com/@gamingewingyt6216' ; // add your username
-global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '94766943622'; ;
+global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '917047294917'; ;
 global.devs = "923184474176"; //Dont change it From here
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/vajirabot1/KING-VAJIRA-MD';
 global.scan  = process.env.QR_URL || 'https://replit.com/@VajiraRathnayak/KING-VAJIRA-MD?v=1';
 global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' ; //wa.me/+923000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || "VAJIRA;;;ShowdownThighs",      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'ᴠᴀᴊɪʀᴀ-ᴍᴅ',
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `It'x vajira`,
   author:  process.env.PACK_AUTHER || '',
   errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
-  read_status : process.env.AUTO_READ_STATUS || 'false',
-  save_status : process.env.AUTO_SAVE_STATUS || 'false',
+  read_status : process.env.AUTO_READ_STATUS || 'true',
+  save_status : process.env.AUTO_SAVE_STATUS || 'true',
   packname:  process.env.PACK_NAME || "\t   𓅋 vajira 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀӄᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
   autoreaction: process.env.AUTO_REACTION || 'false',  //  | 'cmd' | 'true' | 'all' |
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokeyuntillYouPutAnWordHere',
